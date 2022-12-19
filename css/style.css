@@ -10,13 +10,13 @@
 
 /* Element selector */
 body {
-    background-color: rgb(207, 200, 198);
+    background-color: rgb(255, 253, 224);
 }
 
 /* ID selector */
 #loginsection {
     /* background-color: blueviolet; */
-    background-image: linear-gradient(to left, rgb(150, 6, 179), rgb(148, 5, 117));
+    background-image: linear-gradient(to left, rgb(33, 31, 184), rgb(147, 68, 236));
     width: 300px;
     margin: 30px auto;
     padding: 15px;
@@ -44,7 +44,7 @@ input, label {
     display: block;
     width: 100%;
     margin: auto;
-    color: white;
+    
     
 }
 
@@ -53,6 +53,7 @@ label {
     line-height: 20px;
     margin: 10px auto;
     padding-top: 15px;
+    color: white;
 }
 
 input[type=text]{
@@ -62,13 +63,12 @@ input[type=text]{
     display: block;
     border-radius: 4px;
     box-sizing: border-box;
-    border-bottom: 2px solid green;
+    border-bottom: 1px solid green;
 }
 
 input[type=password] {
     width: 100%;
     padding: 15px 15px;
-    display: block;
     margin: auto;
     box-sizing: border-box;
     border-radius: 4px;
@@ -76,7 +76,7 @@ input[type=password] {
 }
 
 input[type=submit] {
-    background-color: rgb(112, 10, 90);
+    background-color: rgb(38, 6, 110);
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 600;
@@ -94,4 +94,17 @@ input[type=submit]:hover {
 a {
     color: white;
     font-size: 14px;
+    font-weight: 600;
 }
+
+input[type=checkbox] {
+    display: inline;
+}
+
+span {
+    color: white;
+    font-size: 12px;
+}
+
+
+
